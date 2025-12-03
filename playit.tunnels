@@ -1,0 +1,180 @@
+{
+  "tcp_alloc": {
+    "allowed": 4,
+    "claimed": 2,
+    "desired": 2
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "consumer-six.gl.joinmc.link",
+          "assigned_srv": "consumer-six.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "10d1f3fc-3b00-4f43-b724-98d67f758cfa",
+          "ip_hostname": "229.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 21718,
+          "port_start": 21717,
+          "region": "global",
+          "static_ip4": "147.185.221.229",
+          "static_ip6": "2602:fbaf:0:1::e5",
+          "tunnel_ip": "147.185.221.229"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2025-11-16T14:42:51.823800Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "hostname_verify_level": "NoRawIp",
+      "id": "1b753690-2b7d-4a2d-9c0c-819c9291a0e2",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "86339e2d-3c01-42fd-8eec-04b574f3a909",
+          "agent_name": "SGR",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "reason": "over-port-limit"
+        },
+        "status": "disabled"
+      },
+      "created_at": "2025-11-21T01:01:56.822742Z",
+      "disabled_reason": "over-port-limit",
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "hostname_verify_level": "NoRawIp",
+      "id": "b34ad68f-d3d8-4429-a712-f749e9ee79cf",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "86339e2d-3c01-42fd-8eec-04b574f3a909",
+          "agent_name": "SGR",
+          "local_ip": "127.0.0.1",
+          "local_port": null
+        },
+        "type": "agent"
+      },
+      "port_count": 25565,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "reason": "over-port-limit"
+        },
+        "status": "disabled"
+      },
+      "created_at": "2025-12-02T15:06:48.577782Z",
+      "disabled_reason": "over-port-limit",
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "hostname_verify_level": "NoRawIp",
+      "id": "2886d1d0-f3ee-4c8f-b4e0-b7d128311ed0",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "86339e2d-3c01-42fd-8eec-04b574f3a909",
+          "agent_name": "SGR",
+          "local_ip": "127.0.0.1",
+          "local_port": null
+        },
+        "type": "agent"
+      },
+      "port_count": 24454,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "security-tomato.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "d61b13c5-d249-48b6-9dee-9f1b4b5bcfa8",
+          "ip_hostname": "19.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 17080,
+          "port_start": 17079,
+          "region": "global",
+          "static_ip4": "147.185.221.19",
+          "static_ip6": "2602:fbaf:0:1::13",
+          "tunnel_ip": "147.185.221.19"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2025-12-02T15:13:53.375524Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "hostname_verify_level": "NoRawIp",
+      "id": "af7ba1b4-dc28-4444-bb12-16ffbc5d1535",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "86339e2d-3c01-42fd-8eec-04b574f3a909",
+          "agent_name": "SGR",
+          "local_ip": "127.0.0.1",
+          "local_port": 17079
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 4,
+    "claimed": 1,
+    "desired": 50020
+  }
+}

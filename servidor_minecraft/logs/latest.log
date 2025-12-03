@@ -1,0 +1,444 @@
+[00:01:30] [Server thread/INFO]: SebasyTU_[/127.80.83.255:51251] logged in with entity id 2 at (-883.3595897024323, 0.0, -326.61938094389757)
+[00:01:30] [Server thread/INFO]: SebasyTU_ joined the game
+[00:01:31] [ForkJoinPool.commonPool-worker-3/INFO]: Loaded 2 player data objects (took 0s 397ms)
+[00:01:32] [Server thread/INFO]: [voicechat] Received secret request of SebasyTU_ (20)
+[00:01:32] [Server thread/INFO]: [voicechat] Sent secret to SebasyTU_
+[00:01:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 77a390da-81bb-3a9a-83b6-98e9f9115325
+[00:01:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 77a390da-81bb-3a9a-83b6-98e9f9115325
+[00:01:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SebasyTU_ (77a390da-81bb-3a9a-83b6-98e9f9115325) successfully connected to voice chat
+[00:02:53] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:11:05] [ForkJoinPool.commonPool-worker-6/WARN]: Failed to fetch skin 'mojang:0x_mati'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:133) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:57) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:104) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[00:11:12] [Server thread/INFO]: 0x_mati[/127.183.185.117:55083] logged in with entity id 3 at (-840.5, 2.0, -329.5)
+[00:11:12] [Server thread/INFO]: 0x_mati joined the game
+[00:11:12] [Server thread/INFO]: [@: Teleported 0x_mati to -872.500000, 0.000000, -322.500000]
+[00:11:12] [ForkJoinPool.commonPool-worker-9/INFO]: Loaded 2 player data objects (took 0s 317ms)
+[00:11:13] [Server thread/INFO]: [voicechat] Received secret request of 0x_mati (20)
+[00:11:13] [Server thread/INFO]: [voicechat] Sent secret to 0x_mati
+[00:11:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 09eb3d5a-fd0b-3651-80ae-7c50051477a6
+[00:11:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 09eb3d5a-fd0b-3651-80ae-7c50051477a6
+[00:11:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 0x_mati (09eb3d5a-fd0b-3651-80ae-7c50051477a6) successfully connected to voice chat
+[00:14:23] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 0x_mati]
+[00:15:40] [Server thread/INFO]: [@: Teleported 0x_mati to -996.500000, 1.000000, -360.500000]
+[00:15:44] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[00:16:09] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 0x_mati]
+[00:16:14] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 0x_mati]
+[00:16:18] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 0x_mati]
+[00:18:48] [Server thread/INFO]: [SebasyTU_: Set 0x_mati's game mode to Creative Mode]
+[00:19:32] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:19:37] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[00:20:17] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:25:27] [Server thread/INFO]: 0x_mati lost connection: Timed out
+[00:25:27] [Server thread/INFO]: 0x_mati left the game
+[00:25:27] [Server thread/INFO]: [voicechat] Disconnecting client 0x_mati
+[00:25:27] [Server thread/WARN]: handleDisconnection() called twice
+[00:25:46] [ForkJoinPool.commonPool-worker-11/WARN]: Failed to fetch skin 'mojang:0x_mati'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:133) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:57) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:104) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[00:25:51] [Server thread/INFO]: 0x_mati[/127.183.185.117:60541] logged in with entity id 20 at (-900.1687499880791, 2.0, -359.30000001192093)
+[00:25:51] [Server thread/INFO]: Loaded 2 player data objects (took 0s 0ms)
+[00:25:51] [Server thread/INFO]: 0x_mati joined the game
+[00:25:51] [Server thread/INFO]: [voicechat] Received secret request of 0x_mati (20)
+[00:25:51] [Server thread/INFO]: [voicechat] Sent secret to 0x_mati
+[00:25:51] [ForkJoinPool.commonPool-worker-11/INFO]: Loaded 2 player data objects (took 0s 321ms)
+[00:25:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 09eb3d5a-fd0b-3651-80ae-7c50051477a6
+[00:25:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 09eb3d5a-fd0b-3651-80ae-7c50051477a6
+[00:25:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 0x_mati (09eb3d5a-fd0b-3651-80ae-7c50051477a6) successfully connected to voice chat
+[00:26:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 09eb3d5a-fd0b-3651-80ae-7c50051477a6 timed out
+[00:26:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player 0x_mati
+[00:26:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to 0x_mati
+[00:26:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 09eb3d5a-fd0b-3651-80ae-7c50051477a6
+[00:26:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 09eb3d5a-fd0b-3651-80ae-7c50051477a6
+[00:26:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 0x_mati (09eb3d5a-fd0b-3651-80ae-7c50051477a6) successfully connected to voice chat
+[00:32:23] [Server thread/INFO]: [Not Secure] <0x_mati> parame
+[00:38:24] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[00:38:24] [Server thread/INFO]: SebasyTU_ left the game
+[00:38:24] [Server thread/INFO]: [voicechat] Disconnecting client SebasyTU_
+[00:43:22] [ForkJoinPool.commonPool-worker-14/WARN]: Failed to fetch skin 'mojang:soycubitoXD123'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:133) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:57) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:104) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[00:43:25] [Server thread/INFO]: soycubitoXD123[/127.238.101.59:46463] logged in with entity id 22 at (-850.5, 2.0, -325.5)
+[00:43:25] [Server thread/INFO]: soycubitoXD123 joined the game
+[00:43:25] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -872.500000, 0.000000, -322.500000]
+[00:43:25] [Server thread/INFO]: [voicechat] Received secret request of soycubitoXD123 (20)
+[00:43:25] [Server thread/INFO]: [voicechat] Sent secret to soycubitoXD123
+[00:43:25] [ForkJoinPool.commonPool-worker-17/INFO]: Loaded 2 player data objects (took 0s 399ms)
+[00:43:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 62ff932c-4cdd-3c28-89d0-56e12e85aacb
+[00:43:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 62ff932c-4cdd-3c28-89d0-56e12e85aacb
+[00:43:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player soycubitoXD123 (62ff932c-4cdd-3c28-89d0-56e12e85aacb) successfully connected to voice chat
+[00:43:31] [Server thread/INFO]: Aimb_[/127.105.14.79:41177] logged in with entity id 23 at (-850.5, 2.0, -331.5)
+[00:43:31] [Server thread/INFO]: Aimb_ joined the game
+[00:43:31] [Server thread/INFO]: [@: Teleported Aimb_ to -872.500000, 0.000000, -322.500000]
+[00:43:31] [ForkJoinPool.commonPool-worker-16/INFO]: Loaded 2 player data objects (took 0s 101ms)
+[00:43:33] [Server thread/INFO]: [voicechat] Received secret request of Aimb_ (20)
+[00:43:33] [Server thread/INFO]: [voicechat] Sent secret to Aimb_
+[00:43:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bc14365d-fedf-38c0-ad31-1e8a08ade3ad
+[00:43:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bc14365d-fedf-38c0-ad31-1e8a08ade3ad
+[00:43:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Aimb_ (bc14365d-fedf-38c0-ad31-1e8a08ade3ad) successfully connected to voice chat
+[00:43:46] [ForkJoinPool.commonPool-worker-16/WARN]: Failed to fetch skin 'mojang:MPRINCIPEM'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:133) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:57) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:104) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[00:43:48] [Server thread/INFO]: MPRINCIPEM[/127.163.28.210:33513] logged in with entity id 24 at (-840.5, 22.0, -336.5)
+[00:43:48] [Server thread/INFO]: MPRINCIPEM joined the game
+[00:43:48] [ForkJoinPool.commonPool-worker-17/INFO]: Loaded 2 player data objects (took 0s 101ms)
+[00:43:49] [Server thread/INFO]: [voicechat] Received secret request of MPRINCIPEM (20)
+[00:43:49] [Server thread/INFO]: [voicechat] Sent secret to MPRINCIPEM
+[00:43:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1c68e0ee-3b73-32e1-aadc-011a1a6b84af
+[00:43:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1c68e0ee-3b73-32e1-aadc-011a1a6b84af
+[00:43:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MPRINCIPEM (1c68e0ee-3b73-32e1-aadc-011a1a6b84af) successfully connected to voice chat
+[00:43:55] [Server thread/INFO]: [@: Teleported MPRINCIPEM to -872.500000, 0.000000, -322.500000]
+[00:45:38] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:45:38] [Server thread/INFO]: gamode aventure @a<--[HERE]
+[00:47:32] [Server thread/INFO]: Gio7[/127.225.199.57:56327] logged in with entity id 54 at (-837.5, 2.0, -321.5)
+[00:47:32] [Server thread/INFO]: Gio7 joined the game
+[00:47:32] [Server thread/INFO]: [@: Teleported Gio7 to -872.500000, 0.000000, -322.500000]
+[00:47:32] [ForkJoinPool.commonPool-worker-19/INFO]: Loaded 2 player data objects (took 0s 294ms)
+[00:47:32] [Server thread/INFO]: [voicechat] Received secret request of Gio7 (20)
+[00:47:32] [Server thread/INFO]: [voicechat] Sent secret to Gio7
+[00:47:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player eb135697-3d10-3646-ad1c-4358ca89a5a9
+[00:47:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player eb135697-3d10-3646-ad1c-4358ca89a5a9
+[00:47:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Gio7 (eb135697-3d10-3646-ad1c-4358ca89a5a9) successfully connected to voice chat
+[00:49:35] [Server thread/INFO]: SebasyTU_[/127.80.83.255:40367] logged in with entity id 76 at (-885.9101813023145, 0.0, -329.6229667115076)
+[00:49:35] [Server thread/INFO]: Loaded 2 player data objects (took 0s 0ms)
+[00:49:35] [Server thread/INFO]: SebasyTU_ joined the game
+[00:49:35] [ForkJoinPool.commonPool-worker-20/INFO]: Loaded 2 player data objects (took 0s 332ms)
+[00:49:35] [Server thread/INFO]: [voicechat] Received secret request of SebasyTU_ (20)
+[00:49:35] [Server thread/INFO]: [voicechat] Sent secret to SebasyTU_
+[00:49:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 77a390da-81bb-3a9a-83b6-98e9f9115325
+[00:49:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 77a390da-81bb-3a9a-83b6-98e9f9115325
+[00:49:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SebasyTU_ (77a390da-81bb-3a9a-83b6-98e9f9115325) successfully connected to voice chat
+[00:51:38] [Server thread/INFO]: [SebasyTU_: Set 0x_mati's game mode to Adventure Mode]
+[00:51:38] [Server thread/INFO]: [SebasyTU_: Set soycubitoXD123's game mode to Adventure Mode]
+[00:51:38] [Server thread/INFO]: [SebasyTU_: Set Aimb_'s game mode to Adventure Mode]
+[00:51:38] [Server thread/INFO]: [SebasyTU_: Set MPRINCIPEM's game mode to Adventure Mode]
+[00:51:38] [Server thread/INFO]: [SebasyTU_: Set Gio7's game mode to Adventure Mode]
+[00:51:38] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[00:51:46] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:51:54] [Server thread/INFO]: [SebasyTU_: Removed 1 item(s) from player 0x_mati]
+[00:52:04] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[00:52:36] [Server thread/INFO]: [@: Teleported MPRINCIPEM to -996.500000, 1.000000, -360.500000]
+[00:53:10] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:53:13] [Server thread/INFO]: [SebasyTU_: Teleported 0x_mati to soycubitoXD123]
+[00:54:08] [Server thread/INFO]: [SebasyTU_: Teleported 6 entities to SebasyTU_]
+[00:54:45] [Server thread/INFO]: [SebasyTU_: Removed 22 item(s) from 6 players]
+[00:55:29] [Server thread/INFO]: z0nex_[/127.70.127.50:50405] logged in with entity id 95 at (-835.5, 22.0, -325.5)
+[00:55:29] [Server thread/INFO]: z0nex_ joined the game
+[00:55:30] [ForkJoinPool.commonPool-worker-25/INFO]: Loaded 2 player data objects (took 0s 327ms)
+[00:55:30] [Server thread/INFO]: [voicechat] Received secret request of z0nex_ (20)
+[00:55:30] [Server thread/INFO]: [voicechat] Sent secret to z0nex_
+[00:55:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7d203fcc-9b18-3f00-9de6-4675a4dcd0ac
+[00:55:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 7d203fcc-9b18-3f00-9de6-4675a4dcd0ac
+[00:55:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player z0nex_ (7d203fcc-9b18-3f00-9de6-4675a4dcd0ac) successfully connected to voice chat
+[00:55:51] [Server thread/INFO]: [@: Teleported z0nex_ to -872.500000, 0.000000, -322.500000]
+[00:56:05] [Server thread/INFO]: [SebasyTU_: Teleported 7 entities to SebasyTU_]
+[00:58:58] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[00:58:58] [Server thread/INFO]: [SebasyTU_: Set z0nex_'s game mode to Adventure Mode]
+[00:59:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:59:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[00:59:57] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[00:59:58] [Server thread/INFO]: [@: Teleported Aimb_ to -996.500000, 1.000000, -360.500000]
+[00:59:58] [Server thread/INFO]: [@: Teleported 2 entities to -996.500000, 1.000000, -360.500000]
+[00:59:58] [Server thread/INFO]: [@: Teleported Gio7 to -996.500000, 1.000000, -360.500000]
+[01:00:07] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:00:13] [Server thread/INFO]: [SebasyTU_: Teleported 7 entities to SebasyTU_]
+[01:00:21] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:00:21] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:00:22] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:00:22] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:00:23] [Server thread/INFO]: Train reset successful.
+[01:00:53] [Server thread/INFO]: z0nex_ lost connection: Disconnected
+[01:00:53] [Server thread/INFO]: z0nex_ left the game
+[01:00:53] [Server thread/INFO]: [voicechat] Disconnecting client z0nex_
+[01:01:58] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:02:10] [Server thread/INFO]: [@: Teleported 0x_mati to -996.500000, 1.000000, -360.500000]
+[01:02:18] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -996.500000, 1.000000, -360.500000]
+[01:02:26] [Server thread/INFO]: [SebasyTU_: Teleported MPRINCIPEM to SebasyTU_]
+[01:02:28] [Server thread/INFO]: [@: Teleported Aimb_ to -996.500000, 1.000000, -360.500000]
+[01:02:30] [Server thread/INFO]: z0nex_[/127.70.127.50:57581] logged in with entity id 125 at (-35.19074153992262, 122.0, -535.454492528705)
+[01:02:30] [Server thread/INFO]: Loaded 2 player data objects (took 0s 0ms)
+[01:02:30] [Server thread/INFO]: z0nex_ joined the game
+[01:02:30] [ForkJoinPool.commonPool-worker-27/INFO]: Loaded 2 player data objects (took 0s 316ms)
+[01:02:31] [Server thread/INFO]: [voicechat] Received secret request of z0nex_ (20)
+[01:02:31] [Server thread/INFO]: [voicechat] Sent secret to z0nex_
+[01:02:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7d203fcc-9b18-3f00-9de6-4675a4dcd0ac
+[01:02:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 7d203fcc-9b18-3f00-9de6-4675a4dcd0ac
+[01:02:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player z0nex_ (7d203fcc-9b18-3f00-9de6-4675a4dcd0ac) successfully connected to voice chat
+[01:02:36] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[01:02:36] [Server thread/INFO]: [@: Teleported 2 entities to -996.500000, 1.000000, -360.500000]
+[01:02:38] [Server thread/INFO]: [@: Teleported z0nex_ to -996.500000, 1.000000, -360.500000]
+[01:03:07] [Server thread/INFO]: [SebasyTU_: Teleported 7 entities to SebasyTU_]
+[01:03:22] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:03:23] [Server thread/INFO]: Train reset successful.
+[01:07:18] [Server thread/INFO]: z0nex_ lost connection: Disconnected
+[01:07:18] [Server thread/INFO]: z0nex_ left the game
+[01:07:18] [Server thread/INFO]: [voicechat] Disconnecting client z0nex_
+[01:11:08] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to Aimb_]
+[01:12:14] [Server thread/INFO]: [@: Teleported 2 entities to -996.500000, 1.000000, -360.500000]
+[01:12:17] [ForkJoinPool.commonPool-worker-30/WARN]: Failed to fetch skin 'mojang:MPRINCIPEM'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:133) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:57) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:104) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[01:12:17] [Server thread/INFO]: MPRINCIPEM lost connection: You logged in from another location
+[01:12:17] [Server thread/INFO]: MPRINCIPEM left the game
+[01:12:17] [Server thread/INFO]: [voicechat] Disconnecting client MPRINCIPEM
+[01:12:18] [Server thread/INFO]: MPRINCIPEM[/127.163.28.210:58855] logged in with entity id 149 at (-878.3952902877313, 0.0, -326.98350654803585)
+[01:12:18] [Server thread/INFO]: Loaded 2 player data objects (took 0s 0ms)
+[01:12:18] [Server thread/INFO]: MPRINCIPEM joined the game
+[01:12:19] [Server thread/INFO]: [voicechat] Received secret request of MPRINCIPEM (20)
+[01:12:19] [Server thread/INFO]: [voicechat] Sent secret to MPRINCIPEM
+[01:12:19] [ForkJoinPool.commonPool-worker-31/INFO]: Loaded 2 player data objects (took 0s 416ms)
+[01:12:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1c68e0ee-3b73-32e1-aadc-011a1a6b84af
+[01:12:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1c68e0ee-3b73-32e1-aadc-011a1a6b84af
+[01:12:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MPRINCIPEM (1c68e0ee-3b73-32e1-aadc-011a1a6b84af) successfully connected to voice chat
+[01:12:20] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -996.500000, 1.000000, -360.500000]
+[01:12:20] [Server thread/INFO]: [@: Teleported Gio7 to -996.500000, 1.000000, -360.500000]
+[01:12:22] [Server thread/INFO]: [@: Teleported Aimb_ to -996.500000, 1.000000, -360.500000]
+[01:12:24] [Server thread/INFO]: [@: Teleported MPRINCIPEM to -996.500000, 1.000000, -360.500000]
+[01:12:26] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:12:29] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:12:33] [Server thread/INFO]: [SebasyTU_: Teleported 6 entities to SebasyTU_]
+[01:12:43] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:12:43] [Server thread/INFO]: Train reset successful.
+[01:13:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:13:18] [Server thread/INFO]: xd<--[HERE]
+[01:15:59] [Server thread/INFO]: [@: Teleported 0x_mati to -996.500000, 1.000000, -360.500000]
+[01:16:01] [Server thread/INFO]: [@: Teleported 2 entities to -996.500000, 1.000000, -360.500000]
+[01:16:03] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -996.500000, 1.000000, -360.500000]
+[01:16:04] [Server thread/INFO]: [@: Teleported 2 entities to -996.500000, 1.000000, -360.500000]
+[01:16:33] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:16:35] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:16:43] [Server thread/INFO]: [SebasyTU_: Teleported 6 entities to MPRINCIPEM]
+[01:17:06] [Server thread/INFO]: [SebasyTU_: Teleported 6 entities to SebasyTU_]
+[01:17:20] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 0x_mati]
+[01:17:22] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:17:27] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:17:28] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[01:17:38] [Server thread/INFO]: [SebasyTU_: Teleported 6 entities to SebasyTU_]
+[01:17:46] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:17:47] [Server thread/INFO]: Train reset successful.
+[01:17:55] [Server thread/INFO]: MPRINCIPEM lost connection: Disconnected
+[01:17:55] [Server thread/INFO]: MPRINCIPEM left the game
+[01:17:55] [Server thread/INFO]: [voicechat] Disconnecting client MPRINCIPEM
+[01:18:12] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:18:22] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:18:38] [ForkJoinPool.commonPool-worker-33/WARN]: Failed to fetch skin 'mojang:MPRINCIPEM'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:133) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:57) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:104) ~[skinrestorer-2.4.3+1.21-fabric.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdc2bdd3$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[01:18:40] [Server thread/INFO]: MPRINCIPEM[/127.163.28.210:32905] logged in with entity id 190 at (-20.130217314387096, 122.0, -535.0379633229416)
+[01:18:40] [Server thread/INFO]: Loaded 2 player data objects (took 0s 0ms)
+[01:18:40] [Server thread/INFO]: MPRINCIPEM joined the game
+[01:18:40] [Server thread/INFO]: [voicechat] Received secret request of MPRINCIPEM (20)
+[01:18:40] [Server thread/INFO]: [voicechat] Sent secret to MPRINCIPEM
+[01:18:40] [ForkJoinPool.commonPool-worker-34/INFO]: Loaded 2 player data objects (took 0s 400ms)
+[01:18:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1c68e0ee-3b73-32e1-aadc-011a1a6b84af
+[01:18:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1c68e0ee-3b73-32e1-aadc-011a1a6b84af
+[01:18:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MPRINCIPEM (1c68e0ee-3b73-32e1-aadc-011a1a6b84af) successfully connected to voice chat
+[01:20:21] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to soycubitoXD123]
+[01:21:05] [Server thread/INFO]: [@: Teleported 0x_mati to -996.500000, 1.000000, -360.500000]
+[01:21:08] [Server thread/INFO]: [@: Teleported Gio7 to -996.500000, 1.000000, -360.500000]
+[01:21:10] [Server thread/INFO]: [@: Teleported MPRINCIPEM to -996.500000, 1.000000, -360.500000]
+[01:21:11] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -996.500000, 1.000000, -360.500000]
+[01:21:16] [Server thread/INFO]: [@: Teleported Aimb_ to -996.500000, 1.000000, -360.500000]
+[01:21:16] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[01:21:27] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:21:27] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:21:28] [Server thread/INFO]: Train reset successful.
+[01:22:15] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:22:32] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:22:58] [Server thread/INFO]: [@: Teleported 0x_mati to -996.500000, 1.000000, -360.500000]
+[01:22:59] [Server thread/INFO]: [@: Teleported Gio7 to -996.500000, 1.000000, -360.500000]
+[01:23:02] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[01:23:03] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -996.500000, 1.000000, -360.500000]
+[01:23:04] [Server thread/INFO]: [@: Teleported Aimb_ to -996.500000, 1.000000, -360.500000]
+[01:23:08] [Server thread/INFO]: [@: Teleported MPRINCIPEM to -996.500000, 1.000000, -360.500000]
+[01:23:13] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:23:18] [Server thread/INFO]: [SebasyTU_: Teleported 6 entities to SebasyTU_]
+[01:23:23] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:23:35] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:23:36] [Server thread/INFO]: Train reset successful.
+[01:24:25] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:24:35] [Server thread/INFO]: [@: Teleported 0x_mati to -996.500000, 1.000000, -360.500000]
+[01:24:36] [Server thread/INFO]: [@: Teleported Gio7 to -996.500000, 1.000000, -360.500000]
+[01:24:38] [Server thread/INFO]: [@: Teleported MPRINCIPEM to -996.500000, 1.000000, -360.500000]
+[01:24:38] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -996.500000, 1.000000, -360.500000]
+[01:24:39] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[01:24:42] [Server thread/INFO]: [@: Teleported Aimb_ to -996.500000, 1.000000, -360.500000]
+[01:24:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:24:50] [Server thread/INFO]: [SebasyTU_: Teleported 6 entities to SebasyTU_]
+[01:24:55] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:56] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:56] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:57] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:57] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:58] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:58] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:59] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:24:59] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:00] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:00] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:01] [Server thread/INFO]: [@: Teleported MPRINCIPEM to -996.500000, 1.000000, -360.500000]
+[01:25:01] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:01] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:02] [Server thread/INFO]: [@: Teleported 0x_mati to -996.500000, 1.000000, -360.500000]
+[01:25:02] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:02] [Server thread/INFO]: [@: Teleported Gio7 to -996.500000, 1.000000, -360.500000]
+[01:25:02] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:03] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:03] [Server thread/INFO]: [@: Teleported Aimb_ to -996.500000, 1.000000, -360.500000]
+[01:25:03] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:04] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:04] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:05] [Server thread/INFO]: [@: Teleported soycubitoXD123 to -996.500000, 1.000000, -360.500000]
+[01:25:05] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:05] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:06] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:06] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:07] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:07] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:07] [Server thread/INFO]: [@: Teleported SebasyTU_ to -996.500000, 1.000000, -360.500000]
+[01:25:08] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:08] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:09] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:09] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:10] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:10] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:11] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:11] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:12] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:12] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:13] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:13] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:14] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:14] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:15] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:15] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:16] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:16] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:17] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:17] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:18] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:18] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:19] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:20] [Server thread/INFO]: Train reset failed: Clone positions not loaded. Queueing another attempt.
+[01:25:21] [Server thread/INFO]: Train reset successful.
+[01:25:26] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[01:25:31] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:26:47] [Server thread/INFO]: [Not Secure] <Aimb_> pndjo
+[01:27:15] [Server thread/INFO]: [Not Secure] <Aimb_> pndjo
+[01:27:28] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:27:39] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:27:59] [Server thread/INFO]: [SebasyTU_: Set Aimb_'s game mode to Adventure Mode]
+[01:28:07] [Server thread/INFO]: [SebasyTU_: Set Aimb_'s game mode to Spectator Mode]
+[01:28:31] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:28:35] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:28:41] [Server thread/INFO]: [SebasyTU_: Teleported Aimb_ to SebasyTU_]
+[01:28:44] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:28:52] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:29:05] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:29:07] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:29:34] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:29:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:29:49] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:29:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:30:29] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:30:50] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:31:01] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 0x_mati]
+[01:31:11] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
+[01:31:21] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[01:31:25] [Server thread/INFO]: [SebasyTU_: Set own game mode to Adventure Mode]
